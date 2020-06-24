@@ -32,11 +32,11 @@ class App extends React.Component{
                 </header>
                 <div className="container">
                     <div>
-                        <h3>My List</h3>
+                        <h2>My List</h2>
                         <List list={this.props.mylist||[]} btnText={'remove'} />
                     </div>
                    <div>
-                       <h3>Recommendations</h3>
+                       <h2>Recommendations</h2>
                        <List list={this.props.recommendations||[]} btnText={'add'} />
                    </div>
 

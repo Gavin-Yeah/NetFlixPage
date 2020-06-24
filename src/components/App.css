@@ -3,7 +3,7 @@
     margin: 0;
 }
 .App-logo{
-      width: 200px;
+      width: 30vw;
   }
 body{
     background-color: black;
@@ -14,14 +14,17 @@ body{
 }
 .list{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     margin-top: 10px;
+    flex-wrap: wrap;
 
 }
 .list li{
     list-style-type: none;
     margin-right: 10px;
     text-align: center;
+
+
 }
 
 .btn{
