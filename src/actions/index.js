@@ -1,3 +1,4 @@
+//action of removing item from my list
 export function remove(id){
     return {
         type:'REMOVE',
@@ -5,6 +6,7 @@ export function remove(id){
 
     }
 }
+//action of adding from recommendation
 export function add(id){
     return{
         type:'ADD',
@@ -12,6 +14,7 @@ export function add(id){
 
     }
 }
+//action of initializing the data
 export function init(list){
         return {
             type:'INIT',
