@@ -3,6 +3,20 @@ This is the coding assignment to create a SPA mocking NetFlix my fav page.
 1.  Please use the command "npm i" to install all dependencies necessary to run the application.
 2.  Use "npm start" to run the application.
 
+#### Updated on 07/10/2020
+##### Feedback:
+
+The list should be a single custom component that can be used multiple times.
+
+The list.js created right now is wrong. It is actually the template for the title.
+
+Please combine the list of templates into a single file and reuse it twice for recommended and my list
+
+##### solotuion:
+remove Item component and include the content of it into List component.
+
+Use react nonnect function to connect List Component to react store by using click event.
+
 
 ### Requirements:
 

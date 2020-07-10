@@ -6,6 +6,7 @@
     /* adjust the width of logo to fit in the screen size */
     width: 25vw;
     max-width: 200px;
+    min-width: 100px;
   }
 body{
     background-color: black;
@@ -18,19 +19,24 @@ body{
     display: flex;
     margin-bottom: 50px;
     flex-wrap: wrap;
+    margin-top: 10px;
+
+
 
 
 }
+
 .list li{
     list-style-type: none;
     margin-right: 10px;
     text-align: center;
 
 
+
 }
 .img{
 
-    max-width: 150px;
+    max-height: 230px;
 }
 .btn{
     visibility: hidden;
@@ -44,5 +50,5 @@ body{
     visibility: visible;
 }
 .container{
-    margin: 50px;
+    margin: 40px;
 }

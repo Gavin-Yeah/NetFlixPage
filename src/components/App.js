@@ -38,8 +38,8 @@ class App extends React.Component{
                 </header>
                 <div className="container">
                     {/*pass the arrays mylist/recommendations,button text, and title to the reusable component List*/}
-                    <List list={this.props.mylist||[]} btnText={'remove'} title={'My List'} />
-                    <List list={this.props.recommendations||[]} btnText={'add'} title={'Recommendations'}/>
+                    <List list={this.props.mylist||[]} title={'My List'} />
+                    <List list={this.props.recommendations||[]} title={'Recommendations'}/>
                 </div>
             </div>
         );
